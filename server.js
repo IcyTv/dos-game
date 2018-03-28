@@ -1,5 +1,6 @@
 const fs = require("fs");
 const express = require("express");
+const path = require("path");
 const app = express();
 
 let content = fs.readFileSync("text.txt").toString();
@@ -29,14 +30,9 @@ for(let text of tmp){
   });
 }
 
-app.use("/", express.static("htdocs"));
+app.use("/", express.static(path.join(__dirname, "htdocs")));
 app.use("/text", (req, res) => {
   let r = Math.floor(Math.random() * texts.length);
   res.send(texts[r]);
 });
-let server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-let server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
- 
-app.listen(server_port, server_ip_address, function () {
-  console.log( "Listening on " + server_ip_address + ", port " + server_port )
-});
+app.listen(80);
