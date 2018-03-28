@@ -1,0 +1,41 @@
+﻿{"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
+Attackers build networks of infected computers,
+known as 'botnets', by spreading malicious software
+through emails, websites and social media.
+Once infected, these machines can be controlled remotely,
+without their owners' knowledge, and used like an
+ army to launch an attack against any target
+http://www.digitalattackmap.com/understanding-ddos/
+------------
+{"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
+Botnets can generate huge floods of traffic to overwhelm
+a target. Some attacks are so big they can max
+out a country's international cable capacity
+http://www.digitalattackmap.com/understanding-ddos/
+------------
+{"textSize":28,"color":[255, 59, 0],"sourceSize":16,"offset":40}
+More than 2000 daily DDoS Attacks are observed
+world-wide by Arbor Networks. 1/3 of all downtime
+incidents are attributed to DDoS attacks
+http://www.digitalattackmap.com/understanding-ddos/
+------------
+{"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
+Four common categories of attacks:
+TCP Connection Attacks - Occupying connections, Volumetric
+Attacks - Using up bandwidth,
+Fragmentation Attacks - Pieces of packets,
+Application Attacks – Targeting applications
+http://www.digitalattackmap.com/understanding-ddos/
+------------
+{"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
+Amplification:
+Two ways attacks can multiply traffic they can send:
+DNS Reflection - Small request, big reply,
+Chargen Reflection - Steady streams of text
+http://www.digitalattackmap.com/understanding-ddos/
+------------
+{"textSize":28,"color":[136, 255, 0],"sourceSize":16,"offset":40}
+In 2008 Anonymous was founded through a huge
+DDOS attack on The Church of Scientology,
+raising awareness to their practices
+https://en.wikipedia.org/wiki/Anonymous_(group)#Operation_Payback_(2010)
