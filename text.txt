@@ -39,3 +39,12 @@ In 2008 Anonymous was founded through a huge
 DDOS attack on The Church of Scientology,
 raising awareness to their practices
 https://en.wikipedia.org/wiki/Anonymous_(group)#Operation_Payback_(2010)
+
+------------
+{"textSize":28,"color":[255, 255, 255],"sourceSize":16,"offset":40}
+Low Loris Attack
+Occupying all available channels in order
+to saturate the connection. The connections
+are kept alive by sending small bits of
+data. A low bandwidth DOS attack.
+https://en.wikipedia.org/wiki/Slowloris_(computer_security)
