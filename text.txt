@@ -39,7 +39,6 @@ In 2008 Anonymous was founded through a huge
 DDOS attack on The Church of Scientology,
 raising awareness to their practices
 https://en.wikipedia.org/wiki/Anonymous_(group)#Operation_Payback_(2010)
-
 ------------
 {"textSize":28,"color":[255, 255, 255],"sourceSize":16,"offset":40}
 Low Loris Attack
