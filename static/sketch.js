@@ -57,14 +57,14 @@ function draw() {
     textAlign(LEFT);
     text(bandwidth + " GB/s", 10, 30);
     textAlign(RIGHT);
-    text(floor(millis() / 1000) + " seconds", width - 10, 30);
+    text(floor(frameCount / frameRate()) + " seconds", width - 10, 30);
   } else {
     if(endText != undefined){
         sleep(500).then(() => {
         noLoop();
         background(51);
         textAlign(RIGHT);
-        text(floor(millis() / 1000) + " seconds", width - 10, 30);
+        text(floor(frameCount / frameRate()) + " seconds", width - 10, 30);
         textAlign(CENTER);
         textSize(15);
         fill(183, 88, 69);
