@@ -1,4 +1,4 @@
-?{"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
+{"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
 Attackers build networks of infected computers,
 known as 'botnets', by spreading malicious software
 through emails, websites and social media.
