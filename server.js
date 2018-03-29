@@ -33,7 +33,8 @@ for(let text of tmp){
 app.use("/", express.static(path.join(__dirname, "static")));
 app.use("/text", (req, res) => {
   let r = Math.floor(Math.random() * texts.length);
-  res.send(texts[r]);
+  res.header("Access-Control-Allow-Origin", "*");
+  res.end(texts[r]);
 });
 let server_port = process.env.PORT || 8080;
  	
