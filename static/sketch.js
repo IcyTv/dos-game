@@ -120,5 +120,5 @@ function sleep(ms) {
 }
 
 function displayText(){
-  loadJSON("https://" + location.host + "/text", "jsonp", (data) => endText = data);
+  loadJSON("https://" + location.host + "/text", (data) => {endText = data }, "jsonp");
 }
