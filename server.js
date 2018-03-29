@@ -30,7 +30,7 @@ for(let text of tmp){
   });
 }
 
-app.use("/", express.static(path.join(__dirname, "htdocs")));
+app.use("/", express.static(path.join(__dirname, "static")));
 app.use("/text", (req, res) => {
   let r = Math.floor(Math.random() * texts.length);
   res.send(texts[r]);
