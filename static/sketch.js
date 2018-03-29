@@ -10,6 +10,7 @@ let set = false;
 let done = false;
 let startText = "Don't let the bandwidth hit 0!";
 let endText;
+let frameRates;
 
 function preload(){
   img = loadImage("Computer_vector_icon-512.png");
@@ -24,6 +25,7 @@ function setup() {
   pcVec = createVector(windowWidth / 2, windowHeight / 2);
   setTimeout(() => startText = "", 2000);
   id = setInterval(newPkg, 500);
+  frameRates = frameRate();
 }
 
 function draw() {
@@ -57,14 +59,14 @@ function draw() {
     textAlign(LEFT);
     text(bandwidth + " GB/s", 10, 30);
     textAlign(RIGHT);
-    text(floor(frameCount / frameRate()) + " seconds", width - 10, 30);
+    text(floor(frameCount / frameRates) + " seconds", width - 10, 30);
   } else {
     if(endText != undefined){
         sleep(500).then(() => {
         noLoop();
         background(51);
         textAlign(RIGHT);
-        text(floor(frameCount / frameRate()) + " seconds", width - 10, 30);
+        text(floor(frameCount / frameRates) + " seconds", width - 10, 30);
         textAlign(CENTER);
         textSize(15);
         fill(183, 88, 69);
