@@ -24,7 +24,7 @@ Four common categories of attacks:
 TCP Connection Attacks - Occupying connections, Volumetric
 Attacks - Using up bandwidth,
 Fragmentation Attacks - Pieces of packets,
-Application Attacks – Targeting applications
+Application Attacks â€“ Targeting applications
 http://www.digitalattackmap.com/understanding-ddos/
 ------------
 {"textSize":28,"color":[255,255,255],"sourceSize":16,"offset":40}
@@ -38,7 +38,7 @@ http://www.digitalattackmap.com/understanding-ddos/
 In 2008 Anonymous was founded through a huge
 DDOS attack on The Church of Scientology,
 raising awareness to their practices
-https://en.wikipedia.org/wiki/Anonymous_(group)#Operation_Payback_(2010)
+https://en.wikipedia.org/wiki/Anonymous_(group)
 ------------
 {"textSize":28,"color":[255, 255, 255],"sourceSize":16,"offset":40}
 Low Loris Attack
